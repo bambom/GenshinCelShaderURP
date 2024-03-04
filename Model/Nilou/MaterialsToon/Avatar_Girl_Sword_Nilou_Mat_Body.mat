@@ -21,7 +21,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Avatar_Girl_Sword_Nilou_Mat_Body
-  m_Shader: {fileID: 4800000, guid: 34b706a062ce50b419ef0060e7dc9118, type: 3}
+  m_Shader: {fileID: 4800000, guid: 56a58bcfe845dd447b8cd1fd35c33258, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
@@ -44,7 +44,9 @@ Material:
   - _ENABLESPECULAR_ON
   - _FIXDARKSHADOW_ON
   - _ISNIGHT_ON
+  - _KEY1
   - _KEY2
+  - _NONE
   - _SHADERENUM_BASE
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -170,6 +172,7 @@ Material:
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
     - _ClipScale: 0.5
+    - _ColorGrading: 0
     - _Cull: 0
     - _Cutoff: 0.5
     - _DarkIntensity: 0.542
@@ -218,6 +221,7 @@ Material:
     - _IsNight: 1
     - _LightArea: 0.55
     - _LightThreshold: 0.54
+    - _Lighting: 0
     - _MTMapBrightness: 3
     - _MTShininess: 90
     - _MTSpecularScale: 15
@@ -228,11 +232,13 @@ Material:
     - _Metallic: 0
     - _Mode: 0
     - _NonMetalSpecArea: 0
+    - _Normal: 0
     - _OcclusionStrength: 1
     - _OtherRimPow: 10
     - _OtherRimSmooth: 0.01
+    - _Outline: 0
     - _OutlineWidth: 4
-    - _OutlineWidthAdjustScale: 0.25
+    - _OutlineWidthAdjustScale: 0.312
     - _OutlineZOffset: 0.0001
     - _OutlineZOffsetMaskRemapEnd: 1
     - _OutlineZOffsetMaskRemapStart: 0
@@ -253,6 +259,7 @@ Material:
     - _RimLightThreshold: 0.05
     - _RimLightWidth: 0.5
     - _RimLightWidthSpecularScaler: 0
+    - _RimLighting: 0
     - _RimOffsets: 0.1
     - _RimPow: 1
     - _RimSmooth: 0.01
@@ -265,6 +272,7 @@ Material:
     - _Smoothness: 0.06324556
     - _SmoothnessTextureChannel: 0
     - _SpecMulti: 0.2
+    - _Specular: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _SrcBlendAlpha: 1
@@ -290,9 +298,6 @@ Material:
     - _WorkflowMode: 1
     - _WorldLightInfluence: 0
     - _ZWrite: 1
-    - _group: 0
-    - _group2: 0
-    - _group_toggle1: 0
     m_Colors:
     - _BackFaceTintColor: {r: 1, g: 1, b: 1, a: 1}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}

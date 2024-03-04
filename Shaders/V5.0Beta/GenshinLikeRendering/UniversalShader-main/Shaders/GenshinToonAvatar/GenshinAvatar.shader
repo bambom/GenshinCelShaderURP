@@ -47,6 +47,7 @@ Shader "GenshinCelShaderURP/V5.0Beta"
         _NonMetalSpecArea("Non-metal Spcular Area", Range(0.0, 1.0)) = 0.0
         _SpecMulti("Specular Multiplier", Range(0.0, 1.0)) = 0.2
 
+        
         [Header(Rim Lighting)]
         [Toggle(_RIM_LIGHTING_ON)] _UseRimLight("Use Rim light (Default YES)",float) = 1
         _RimLightWidth("Rim light width (Default 1)",Range(0, 10)) = 1
@@ -273,4 +274,5 @@ Shader "GenshinCelShaderURP/V5.0Beta"
             ENDHLSL
         }
     }
+    CustomEditor "LWGUI.LWGUI"
 }
