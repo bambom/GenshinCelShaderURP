@@ -1,4 +1,4 @@
-Shader "GenshinCelShaderURP/ToonV5"
+Shader "ToonAvatar/ToonV5"
 {
     Properties
     {
@@ -149,7 +149,7 @@ Shader "GenshinCelShaderURP/ToonV5"
             ZWrite [_ZWrite]
             Tags
             {
-                "LightMode"="SRPDefaultUnlit"
+                "LightMode"="BackFacingOutline"
             }
             HLSLPROGRAM
             #pragma vertex BackFaceOutlineVertex
